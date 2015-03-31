@@ -34,6 +34,9 @@ IBsmsNotify.r
 _checkSharedBinXTS.R	
    :Utility to 'manually' inspect mmap files
 
+__IBapi-clientVer63-v002.r
+   :Partial implementation of the IB API in R - works with TWS/GW version >=9493
+
 README.txt		
    :Guess what ?
 
