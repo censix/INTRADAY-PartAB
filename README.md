@@ -17,4 +17,4 @@ Open two terminals in INTRADAY-PartAB/
 
 ==== Run strategy (terminal 2)
 
-  cd ../../INTRADAY-PartB/STRATEGY01 ; R --vanilla <00launch*
+  cd INTRADAY-PartB/STRATEGY01 ; R --vanilla <00launch*
