@@ -59,14 +59,9 @@ rdata
 
 
 
-Why do we have two R processes, one for PartA, 
-one for PartB, rather than doing everything
-in a single R process ?
-=========================================================
-The main reason is that handling the datafeed AND the strategy execution in one single R process becomes extremely messy. I have found it
-much more intuitive to use two separate R processes. A second reason is that if you wanted to use a different datafeed provider other than IB (
-while continuing to place the orders through IB) you could do this very easily without having to rewrite your strategy code. You would just 
-need to replace PartA with your provider specific code, while PartB would not have to be changed at all!
+FAQ: Why do we have two R processes, one for PartA, one for PartB, rather than doing everything in a single R process ?
+
+The main reason is that handling the datafeed AND the strategy execution in one single R process becomes extremely messy. I have found it much more intuitive to use two separate R processes. A second reason is that if you wanted to use a different datafeed provider other than IB ( while continuing to place the orders through IB) you could do this very easily without having to rewrite your strategy code. You would just need to replace PartA with your provider specific code, while PartB would not have to be changed at all!
 
 
 
