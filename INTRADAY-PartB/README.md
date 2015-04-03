@@ -23,7 +23,7 @@ STRATEGY01/
        IBcreateExecPortfAcct-intraday.r           Strategy initialization 
        intraday.config.local.r                    Local definitions for the core event processing and execution system
        userStrategyEvents.r                       user-defined *actual* strategy       
-       userStrategyEvents-SIMPLEBBANDS01.r        Dummy strategy example
+       userStrategyEvents-SIMPLEBBANDS01.r        Dummy strategy example 
        userStrategyEvents-SIMPLEBREAKOUT01.r      Dummy strategy example
        
 
