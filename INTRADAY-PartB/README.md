@@ -27,7 +27,7 @@ STRATEGY01/
        userStrategyEvents-SIMPLEBREAKOUT01.r      Dummy strategy example
        
 
-STRATEGY01/lib/ 
+STRATEGY01/lib/
      Contains frequently needed common indicator functions use in strategies.
 
 
