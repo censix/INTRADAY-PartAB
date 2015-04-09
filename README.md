@@ -3,7 +3,10 @@ Soren Wilkening.updated March 2015
 
 Quickstart:  
 ====================
-to run the dummy EURUSD strategy, do the following:
+Make sure you have the following R packages installed, either from CRAN or r-forge:  
+  quantmod, mmap, IBrokers, blotter, FinancialInstrument.
+
+To run the dummy EURUSD strategy, do the following:
 Open two terminals in INTRADAY-PartAB/
 
 ==== Initialize strategy (terminal 1)
